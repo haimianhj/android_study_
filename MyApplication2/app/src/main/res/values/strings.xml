@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">轻松日程</string>
+    <string name="app_name_day">日程</string>
+    <string name="app_name_life">生活</string>
+    <string name="app_name_my">我的</string>
+    <string name="app_name_plan">计划内容</string>
+
+    <array name="clock">
+        <item>"12"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+        <item>"11"</item>
+    </array>
+
+</resources>

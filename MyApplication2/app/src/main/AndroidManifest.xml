@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="activitytest.example.com.myapplication2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        //注册欢迎界面为主界面
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MY_Activity"
+            android:label="@string/app_name_my" />
+        <activity
+            android:name=".DAY_Activity"
+            android:label="@string/app_name_day" />
+        <activity
+            android:name=".LIFE_Activity"
+            android:label="@string/app_name_life" />
+        <activity android:name=".DateActivity"
+            android:label="@string/app_name_plan"/>
+    </application>
+
+</manifest>

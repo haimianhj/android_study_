@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_date"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="activitytest.example.com.myapplication2.DateActivity"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="437dp">
+
+        <EditText
+            android:text="星期一："
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_one"
+            android:layout_weight="0.15"
+            android:maxLines="2"
+            />
+
+        <EditText
+            android:text="星期二："
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_two"
+            android:layout_weight="0.15"
+            android:maxLines="2"
+            />
+
+        <EditText
+            android:text="星期三："
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_three"
+            android:layout_weight="0.15"
+            android:maxLines="2"
+            />
+
+        <EditText
+            android:text="星期四："
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_four"
+            android:layout_weight="0.15"
+            android:maxLines="2"
+            />
+
+        <EditText
+            android:text="星期五："
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_five"
+            android:layout_weight="0.15"
+            android:maxLines="2"
+            />
+
+        <EditText
+            android:text="星期六："
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_six"
+            android:layout_weight="0.15"
+            android:maxLines="2"
+            />
+
+        <EditText
+            android:text="星期日："
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_seven"
+            android:layout_weight="0.15"
+            android:maxLines="2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="确定输入"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_ok"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="返回"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_up"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
